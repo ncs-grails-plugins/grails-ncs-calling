@@ -1,0 +1,32 @@
+<plugin name='ncs-calling' version='0.1' grailsVersion='1.3.7 &gt; *'>
+  <author>Aaron J. Zirbes</author>
+  <authorEmail>ajz@umn.edu</authorEmail>
+  <title>Provides Schema to support call logging</title>
+  <description>\
+This plugin provides domain classes to support call logging within the NCS case management system.
+The use of these domain classes through a plugin allows them to be used in other applications without
+having to fork the code.
+</description>
+  <documentation>https://www.ncs.umn.edu/ncs-grails-plugin/ncs-calling</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+    <resource>edu.umn.ncs.phone.AdminTask</resource>
+    <resource>edu.umn.ncs.phone.Administrivia</resource>
+    <resource>edu.umn.ncs.phone.Call</resource>
+    <resource>edu.umn.ncs.phone.CallResult</resource>
+    <resource>edu.umn.ncs.phone.CallResultCategory</resource>
+    <resource>edu.umn.ncs.phone.Form</resource>
+    <resource>edu.umn.ncs.phone.ItemCallResult</resource>
+    <resource>edu.umn.ncs.phone.NonParticipationReason</resource>
+    <resource>edu.umn.ncs.phone.UserQueue</resource>
+    <resource>edu.umn.ncs.phone.WorkQueue</resource>
+  </resources>
+  <dependencies>
+    <plugin name='ncsTracking' version='0.5 &gt; *' />
+    <plugin name='jodaTime' version='1.0 &gt; *' />
+  </dependencies>
+  <behavior />
+</plugin>
