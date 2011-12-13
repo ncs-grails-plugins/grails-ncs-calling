@@ -2,7 +2,7 @@ package edu.umn.ncs.phone
 
 import grails.test.*
 
-class WorkQueueTests extends GrailsUnitTestCase {
+class UserQueueTests extends GrailsUnitTestCase {
     protected void setUp() {
         super.setUp()
     }

@@ -2,8 +2,8 @@ package edu.umn.ncs.phone
 
 import edu.umn.ncs.TrackedItem
 import org.codehaus.groovy.grails.plugins.orm.auditable.AuditLogEvent
-// used to track administrative time associated with a tracked item
 
+/** This class is used to track administrative time associated with a tracked item */
 class Administrivia {
 	
 	static auditable = true

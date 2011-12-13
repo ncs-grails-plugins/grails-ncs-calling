@@ -24,7 +24,10 @@ class ItemCallResult {
 	def onDelete = { oldMap ->
 		def now = new Date()
 		
-		String oldValue = "ItemCallResult for Item:${oldMap.trackedItem?.id}, Result:${oldMap.associatedResult.id} on ${oldMap.dateClosed}. Created: [on: ${oldMap.dateCreated} by:${oldMap.userCreated}] Updated: [on: ${oldMap.lastUpdated} by: ${oldMap.userUpdated}]"
+		String oldValue = """ItemCallResult for Item:${oldMap.trackedItem?.id}, 
+Result:${oldMap.associatedResult.id} on ${oldMap.dateClosed}. 
+Created: [on: ${oldMap.dateCreated} by:${oldMap.userCreated}] 
+Updated: [on: ${oldMap.lastUpdated} by: ${oldMap.userUpdated}]"""
 		
 		String className = this.class.toString().replace('class ', '')
 		
