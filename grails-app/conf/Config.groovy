@@ -1,5 +1,5 @@
-ls.config.locations = [ "file:/etc/grails/ncs-case-management-config.groovy" ]
-a
+grails.config.locations = [ "file:/etc/grails/ncs-case-management-config.groovy" ]
+
 // grails.doc.authors - The authors of the documentation
 grails.doc.authors = "Aaron J. Zirbes"
 // grails.doc.license - The license of the software
