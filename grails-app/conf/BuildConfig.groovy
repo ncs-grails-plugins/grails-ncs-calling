@@ -22,21 +22,10 @@ grails.project.dependency.resolution = {
         grailsHome()
         grailsCentral()
 
-        // uncomment the below to enable remote dependency resolution
-        // from public Maven repositories
-        //mavenLocal()
-        //mavenCentral()
 		mavenRepo "http://artifact.ncs.umn.edu/plugins-release"
     }
     dependencies {
-        // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
-
-		// Exclude dependencies to resolve conflicts with pdf and renderer plugin
-		// compile("org.xhtmlrenderer:core-renderer:R8") {
-		// 	excludes 'xml-apis', 'xmlParserAPIs'
-		// }
-
-        // runtime 'mysql:mysql-connector-java:5.1.5'
+        // runtime 'mysql:mysql-connector-java:5.1.10'
     }
 }
 codenarc.reports = {
