@@ -1,0 +1,6 @@
+dependencies.groovy
+grails-ncs-calling-*.zip
+plugin.xml
+target/
+web-app/
+
